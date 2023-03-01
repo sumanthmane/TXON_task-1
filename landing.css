@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}  
+
+body {
+    position: inherit;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: url(pexels-photo-172505.webp ) no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+header {
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .SUMAN {
+    position: relative;
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+header .navigation a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 3px 15px;
+    border-radius: 20px;
+    transition: 0.4s;
+    transition-property: background;
+}
+
+header .navigation a:not(:last-child) {
+    margin-right: 30px;
+}
+
+header .navigation a:hover {
+     background: #ffff;
+}
+
+section {
+    width: 1100px;
+    margin: 60px 100px;
+}
+
+section h2 {
+    color: #238FD6;
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    line-height: 60px;
+    margin-bottom: 30px;
+}
+
+section h2 span {
+    color: #24A507;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+secction p{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 100px;
+}
+ 
+section .info {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding: 10px 10px;
+    border-radius: 3px;
+}
+
+section .info:hover {
+    background: #1696E7;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+footer a{
+    position: relative;
+    color: #fff;
+    font-size: 40px;
+
+}
+
+footer a:not(:last-child) {
+    margin-right: 50px;
+}
+
+footer a:hover {
+    transform: scale(1.5);
+}
