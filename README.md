@@ -1,2 +1,2 @@
 # suman
-Landing web page using html, css
+Landing web page using HTML, CSS
